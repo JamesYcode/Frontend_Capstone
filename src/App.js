@@ -9,19 +9,20 @@ import Sign_Up from './Components/Sign_Up/Sign_Up.jsx';
 // Function component for the main App
 function App() {
 
-	// Render the main App component
-	return (
-		<div className="App">
-			<BrowserRouter>
-				<Navbar />
-				<Routes>
-					<Route path="/" element={<Landing_Page />} />
-					<Route path="/Login" element={<Login />} />
-					<Route path="/Signup" element={<Sign_Up />} />
-				</Routes>
-			</BrowserRouter>
-		</div>
-	);
+    // Render the main App component
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Landing_Page />} />
+                    <Route path='/Login' element={<Login />} />
+                    <Route path='/SignUp' element={<Sign_Up />} />
+
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 // Export the App component as the default export
