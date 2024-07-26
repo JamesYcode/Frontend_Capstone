@@ -49,7 +49,7 @@ function Navbar() {
         <ul className="nav__links active">
      
           <li className="link">
-            <a href="../Landing_Page/LandingPage.html">Home</a>
+            <a href="/home">Home</a>
           </li>
 
           <li className="link">
@@ -57,13 +57,13 @@ function Navbar() {
           </li>
 
           <li className="link">
-            <a href="../Sign_Up//Sign_Up.html">
+            <a href="/signup">
               <button className="btn1">Sign Up</button>
             </a>
           </li>
 
           <li className="link">
-            <a href="../Login/Login.html">
+            <a href="/login">
               <button className="btn1">Login</button>
             </a>
           </li>
