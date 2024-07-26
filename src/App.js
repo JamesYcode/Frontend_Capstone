@@ -1,10 +1,8 @@
-// Import necessary modules from React library
-import React, { useEffect } from 'react';
 // Import components for routing from react-router-dom library
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Import custom Navbar component
 import Navbar from './Components/Navbar/Navbar';
-import Landing_Page from './Components/Landing_Page/Landing_Page.js';
+import Landing_Page from './Components/Landing_Page/Landing_Page.jsx';
 import Login from './Components/Login/Login.jsx';
 import Sign_Up from './Components/Sign_Up/Sign_Up.jsx';
 
