@@ -7,6 +7,7 @@ import Login from './Components/Login/Login.jsx';
 import Sign_Up from './Components/Sign_Up/Sign_Up.jsx';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation.jsx'
 import Notification from "./Components/Notification/Notification.jsx";
+import ReviewForm from "./Components/ReviewForm/ReviewForm.jsx";
 
 // Function component for the main App
 function App() {
@@ -21,6 +22,9 @@ function App() {
                     <Route path='/Login' element={<Login />} />
                     <Route path='/SignUp' element={<Sign_Up />} />
                     <Route path="/instant-consultation" element={<InstantConsultation />} />
+                    <Route path="/instant-consultation" element={<InstantConsultation />} />
+                    <Route path="/reviews" element={<ReviewForm />} />
+
                 </Routes>
                 <Notification />
             </BrowserRouter>
