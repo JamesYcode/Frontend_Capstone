@@ -93,7 +93,7 @@ const ProfileCard = () => {
         alert(`Profile Updated Successfully!`);
         navigate("/");
       } else {
-        // Handle error case
+        // Handle error case++
         throw new Error("Failed to update profile");
       }
     } catch (error) {
