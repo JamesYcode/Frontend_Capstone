@@ -10,6 +10,7 @@ import Notification from "./Components/Notification/Notification.jsx";
 import ReviewForm from "./Components/ReviewForm/ReviewForm.jsx";
 import ProfileCard from "./Components/Profile/ProfileCard.jsx";
 import ReportsLayout from "./Components/ReportsLayout/ReportsLayout.jsx";
+import AppointmentForm from "./Components/AppointmentForm/AppointmentForm.jsx";
 
 // Function component for the main App
 function App() {
@@ -28,6 +29,7 @@ function App() {
                     <Route path="/reviews" element={<ReviewForm />} />
                     <Route path="/profileCard" element={<ProfileCard />} />
                     <Route path="/reportsLayout" element={<ReportsLayout />} />
+                    <Route path="/search/doctors" element={<AppointmentForm />} />
 
                 </Routes>
                 <Notification />
