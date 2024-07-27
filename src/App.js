@@ -8,6 +8,7 @@ import Sign_Up from './Components/Sign_Up/Sign_Up.jsx';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation.jsx'
 import Notification from "./Components/Notification/Notification.jsx";
 import ReviewForm from "./Components/ReviewForm/ReviewForm.jsx";
+import ProfileCard from "./Components/Profile/ProfileCard.jsx";
 
 // Function component for the main App
 function App() {
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/instant-consultation" element={<InstantConsultation />} />
                     <Route path="/instant-consultation" element={<InstantConsultation />} />
                     <Route path="/reviews" element={<ReviewForm />} />
+                    <Route path="/profileCard" element={<ProfileCard />} />
 
                 </Routes>
                 <Notification />
