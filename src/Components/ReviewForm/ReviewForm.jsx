@@ -56,8 +56,7 @@ export default function ReviewForm() {
                         <td>General Specialist</td>
                         <td>
                             
-                            {/* <Button variant="primary" disabled size='sm'>Review Submitted</Button> */}
-                            {<SubmitReview />}
+                            <Button variant="primary" disabled size='sm'>Review Submitted</Button>
                         </td>
                   
                     </tr>
